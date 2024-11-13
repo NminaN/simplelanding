@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    font-family: sans-serif;
+    background-color: none !important ; 
+    background-color: #0172ff !important; 
+}
+/* start nav */
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+.logo {
+    color: red;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight:bolder
+}
+.nav-items{
+   display: inline-block; 
+}
+.nav-items a{
+    color : white;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size :20px;
+    font-weight: bold ;
+    text-decoration: none;
+    transform: smooth ;
+}
+.nav-items a:hover{
+    color : red;
+    font-size :30px;
+
+}
+/* End nav */
+
+/* start loan section */
+.loans-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top :60px;
+}
+.card{
+    margin-left: 60px;
+    padding :20px;
+    border-radius: 0;
+    position: relative;
+   
+   }
+
+
+.loans-section .btn{
+    margin-top:20px;
+    background-color: #01df88;
+}
+.loans-section .btn-continue{
+    width:100%;
+    background-color: #01df88;
+    padding: 10px;
+    border: none;
+}
